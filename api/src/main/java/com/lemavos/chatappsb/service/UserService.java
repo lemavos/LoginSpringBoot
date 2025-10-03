@@ -1,9 +1,9 @@
-package com.lemavos.chatappsb.bussines;
+package com.lemavos.chatappsb.service;
 
 import org.springframework.stereotype.Service;
 
-import com.lemavos.chatappsb.infrastrucure.entitys.User;
-import com.lemavos.chatappsb.infrastrucure.repository.UserRepository;
+import com.lemavos.chatappsb.entity.User;
+import com.lemavos.chatappsb.repository.UserRepository;
 
 @Service
 public class UserService {

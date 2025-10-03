@@ -1,4 +1,4 @@
-package com.app.models;
+package com.lemavos.app.models;
 public class Client {
 
     private String name;

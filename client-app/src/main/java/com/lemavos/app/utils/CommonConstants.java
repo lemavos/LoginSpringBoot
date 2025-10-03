@@ -1,4 +1,4 @@
-package com.app.constants;
+package com.lemavos.app.utils;
 
 public class CommonConstants {
     // Window dimensions

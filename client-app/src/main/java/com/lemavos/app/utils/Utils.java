@@ -1,4 +1,4 @@
-package com.app.services;
+package com.lemavos.app.utils;
 
 public class Utils {
 

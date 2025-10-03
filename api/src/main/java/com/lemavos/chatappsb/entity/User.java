@@ -1,4 +1,4 @@
-package com.lemavos.chatappsb.infrastrucure.entitys;
+package com.lemavos.chatappsb.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

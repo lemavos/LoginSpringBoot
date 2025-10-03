@@ -1,6 +1,6 @@
-package com.app.services;
+package com.lemavos.app.services;
 
-import com.app.models.Client;
+import com.lemavos.app.models.Client;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

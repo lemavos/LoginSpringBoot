@@ -1,8 +1,8 @@
 // Call The Aplication
 
-package com.app;
+package com.lemavos.app;
 
-import com.app.gui.Login;
+import com.lemavos.app.gui.Login;
 
 public class Main {
 

@@ -1,8 +1,9 @@
-package com.app.gui;
+package com.lemavos.app.gui;
 
-import com.app.constants.CommonConstants;
-import com.app.models.Client;
-import com.app.services.*;
+import com.lemavos.app.utils.CommonConstants;
+import com.lemavos.app.utils.Utils;
+import com.lemavos.app.models.Client;
+import com.lemavos.app.services.*;
 
 import javax.swing.*;
 public class Register {

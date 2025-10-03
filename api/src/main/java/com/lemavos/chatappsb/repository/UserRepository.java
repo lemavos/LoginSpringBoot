@@ -1,8 +1,8 @@
-package com.lemavos.chatappsb.infrastrucure.repository;
+package com.lemavos.chatappsb.repository;
 
 import java.util.Optional;
 
-import com.lemavos.chatappsb.infrastrucure.entitys.User;
+import com.lemavos.chatappsb.entity.User;
 
 import jakarta.transaction.Transactional;
 

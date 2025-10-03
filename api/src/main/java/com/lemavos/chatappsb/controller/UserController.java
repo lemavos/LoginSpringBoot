@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lemavos.chatappsb.bussines.UserService;
-import com.lemavos.chatappsb.infrastrucure.entitys.User;
+import com.lemavos.chatappsb.service.UserService;
+import com.lemavos.chatappsb.entity.User;
 
 import lombok.RequiredArgsConstructor;
 

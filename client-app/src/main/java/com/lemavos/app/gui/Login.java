@@ -1,6 +1,6 @@
-package com.app.gui;
+package com.lemavos.app.gui;
 
-import com.app.constants.CommonConstants;
+import com.lemavos.app.utils.CommonConstants;
 import javax.swing.*;
 
 public class Login {
