@@ -37,4 +37,27 @@ public class ClientService {
             return false;
         }
     }
+
+    public static boolean loginAttempt(Client client){
+        try {
+            HttpClient httpClient = HttpClient.newHttpClient();
+
+            HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(BASE_URL + "?email=" + client.getEmail()))
+                .header("Content-Type", "application/json")
+                .GET()
+                .build();
+
+            HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+            System.out.println("Status: " + response.statusCode());
+            System.out.println("Response: " + response.body());
+
+            return response.statusCode() == 201 || response.statusCode() == 200;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
 }

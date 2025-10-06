@@ -2,6 +2,9 @@ package com.lemavos.app.gui;
 
 import com.lemavos.app.utils.CommonConstants;
 import javax.swing.*;
+import com.lemavos.app.utils.Utils;
+import com.lemavos.app.models.Client;
+import com.lemavos.app.services.*;
 
 public class Login {
     public static void login() {
@@ -80,7 +83,10 @@ public class Login {
             String email = emailField.getText();
             String password = new String(passwordField.getPassword());
 
-            boolean logged = false; //db.authenticateClient(email, password);
+            // Criação do client
+            Client client = new Client("", email, "", "");
+
+            boolean logged = ClientService.loginAttempt(client);
 
             if (logged) {
                 labelStatus.setText("Logged in successfully!");
