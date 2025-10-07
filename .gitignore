@@ -33,4 +33,5 @@ build/
 .vscode/
 
 ### DATA ###
-data/*.mv.db
+/api/data/usersdb.mv.db
+/api/data/usersdb.trace.dbb
