@@ -87,9 +87,9 @@ git clone https://github.com/lemavos/loginSimulation.git
 cd loginSimulation/api
 mvn spring-boot:run
 python3 -m http.server 5500
-Open the client/login.html or register.html file in your browser.
 
 ```
+Open the client/login.html or register.html file in your browser.
 
 ### 📦 API Endpoints
 - Method	   Endpoint	           Description
