@@ -72,28 +72,33 @@ mvn spring-boot:run
 Open the frontend:
 ```
 cd ../client
-
- xdg-open register.html   # or open login.html
-
+python3 -m http.server 5500
+xdg-open register.html   # or open login.html
+```
 🪟 On Windows
 
-    Check Maven installation:
-
+Check Maven installation:
+```
 mvn -v
-
+```
 Clone and run:
+```
+git clone https://github.com/lemavos/loginSimulation.git
+cd loginSimulation/api
+mvn spring-boot:run
+python3 -m http.server 5500
+Open the client/login.html or register.html file in your browser.
 
-    git clone https://github.com/lemavos/loginSimulation.git
-    cd loginSimulation/api
-    mvn spring-boot:run
-
-    Open the client/login.html or register.html file in your browser.
+```
 
 📦 API Endpoints
 Method	Endpoint	Description
 POST	/user/register	Register a new user
 GET	/user/all	Retrieve all users
 POST	/user/login	Validate login credentials
+
+```
+
 📜 License
 
 This project is licensed under the MIT License
