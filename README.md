@@ -98,7 +98,3 @@ POST	/user/login	Validate login credentials
 
 This project is licensed under the MIT License
 
-.
-
-
-quer que eu adicione também uma parte tipo **"Frontend Preview"** com prints/gif e badges (Java, Spring, HTML5 etc.) pra deixar o README mais bonito?
