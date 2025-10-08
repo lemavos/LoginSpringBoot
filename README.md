@@ -97,9 +97,8 @@ Open the client/login.html or register.html file in your browser.
 - GET	       /user/all	         Retrieve all users
 - POST  	   /user/login	       Validate login credentials
 
-```
 
 📜 License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
