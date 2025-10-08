@@ -75,7 +75,7 @@ cd ../client
 python3 -m http.server 5500
 xdg-open register.html   # or open login.html
 ```
-🪟 On Windows
+### 🪟 On Windows
 
 Check Maven installation:
 ```
@@ -91,11 +91,11 @@ Open the client/login.html or register.html file in your browser.
 
 ```
 
-📦 API Endpoints
-Method	Endpoint	Description
-POST	/user/register	Register a new user
-GET	/user/all	Retrieve all users
-POST	/user/login	Validate login credentials
+### 📦 API Endpoints
+- Method	   Endpoint	           Description
+- POST	     /user/register	     Register a new user
+- GET	       /user/all	         Retrieve all users
+- POST  	   /user/login	       Validate login credentials
 
 ```
 
